@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="We are the best car dealership and repair shop in Ogun state"
+    />
+    <meta name="keywords" content="cars, repair, dealership" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1100px)"
+      href="/laptop.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 700px)"
+      href="/mobile.css"
+    />
+    <title>AUTO SHOP | Car Shop</title>
+  </head>
+
+  <body id="home">
+    <!-- navigation bar -->
+    
+      <nav id="navbar">
+        <h1 class="logo">
+          <a href="index.html"> <span class="p-color">AUTO</span> SHOP </a>
+        </h1>
+
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#visit">Visit Us</a></li>
+        </ul>
+      </nav>
+    
+
+    <!-- showcase -->
+    <header id="showcase">
+      <div class="showcase-content">
+        <h1 class="l-heading">
+          <span class="p-color"> DRIVE </span> Like Your Life Depends On
+          It...Because It Does.
+        </h1>
+        <p class="lead">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+          ea facere non corporis sunt laboriosam harum! Qui hic eligendi
+          corporis ipsum, temporibus, fugiat tempore aliquam optio atque tempora
+          beatae? Corporis?
+        </p>
+
+        <a href="#" class="btn">CALL US NOW</a>
+      </div>
+    </header>
+
+    <!-- about us -->
+    <section id="about">
+      <div class="img-about"></div>
+      <div class="about-text">
+        <h2 class="m-heading"><span class="p-color">ABOUT</span> US</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
+          labore alias blanditiis quo amet repellendus quia natus accusamus? Non
+          officia placeat ex nostrum illum at aut numquam nam voluptatum quo!
+        </p>
+        <h3 class="li-heading">Our Services</h3>
+        <ul class="list">
+          <li>Engine servicing</li>
+          <li>Oil change</li>
+          <li>Body work</li>
+          <li>Brake pad repair/replacement</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- clients -->
+    <section id="clients">
+      <div class="container">
+        <h2 class="m-heading text-center">OUR CLIENTS</h2>
+        <div class="items">
+            <div><img src="/image/logo1.png" alt="logo1" /></div>
+            <div><img src="/image/logo2.png" alt="logo2" /></div>
+            <div><img src="/image/logo3.png" alt="logo3" /></div>
+            <div><img src="/image/logo4.png" alt="logo4" /></div>
+            <div><img src="/image/logo5.png" alt="logo5" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact us -->
+    <section id="contact">
+      <div class="contact-form">
+        <h2 class="m-heading"><span class="p-color">CONTACT</span> US</h2>
+        <p>Please contact us through this form...thank you.</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter Your Name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Your Email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input
+              type="number"
+              name="phone"
+              id="phone"
+              placeholder="Enter Your Phone Number"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              name="phone"
+              id="phone"
+              placeholder="Enter Your Message"
+            ></textarea>
+          </div>
+          <input type="submit" value="Send" class="btn" />
+        </form>
+      </div>
+
+      <div class="contact-img"></div>
+    </section>
+
+    <!-- visit us -->
+    <section id="visit">
+      <div class="visit-img"></div>
+
+      <div class="visit-text">
+        <h2 class="m-heading text-center">
+          <span class="p-color">VISIT</span> US
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
+          cupiditate!
+        </p>
+        <div class="map"></div>
+      </div>
+    </section>
+
+    <footer id="main-footer" class="text-center">
+      <p>Copyright &copy; 2021, Auto Shop, All Rights Reserved.</p>
+    </footer>
+
+    <!-- jquery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Local js File Linking -->
+    <script src="main.js"></script>
+
+    <!-- map section -->
+    <script
+      async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW0GxumMpwJawlHQtjiQZBNcG5l4IWb9A&callback=initMap"
+    ></script>
+  </body>
+</html>
